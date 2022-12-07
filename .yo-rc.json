@@ -1,0 +1,45 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.micronaut.app"
+    },
+    "jhipsterVersion": "6.10.5",
+    "applicationType": "microservice",
+    "baseName": "micronaut",
+    "packageName": "com.micronaut.app",
+    "packageFolder": "com/micronaut/app",
+    "serverPort": "8080",
+    "authenticationType": "oauth2",
+    "cacheProvider": "redis",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mariadb",
+    "messageBroker": false,
+    "serviceDiscoveryType": "consul",
+    "buildTool": "gradle",
+    "jwtSecretKey": "YTEwODA0MDM3Yjk1YjgyODNiMmEyYjNiNzgyMWZiMWRkNTllZGQzNjk5OTg5MmE1MGExODBiYjA3MTQyYmNjYTY5OWIwNzZjZjQ3NzA4NzAwOGY5MjE4MjYwMjM4NTIxOTY5YTYzZjU2NzA4MDQwZTJhMDg5YjFlNGU1ZTIxMWI=",
+    "embeddableLaunchScript": false,
+    "creationTimestamp": 1670401539708,
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [
+      {
+        "name": "generator-jhipster-micronaut",
+        "version": "1.0.0"
+      }
+    ],
+    "enableTranslation": false,
+    "clientPackageManager": "npm",
+    "blueprints": [
+      {
+        "name": "generator-jhipster-micronaut",
+        "version": "1.0.0"
+      }
+    ],
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}

@@ -1,0 +1,6 @@
+version: '2'
+services:
+  micronaut-redis:
+    image: redis:6.0.10
+    ports:
+      - '6379:6379'
